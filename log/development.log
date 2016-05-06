@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 Started GET "/" for 187.78.48.218 at 2016-05-01 13:01:28 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
@@ -95,6 +96,41 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 Started GET "/ambiente" for 187.78.82.243 at 2016-05-04 00:52:09 +0000
 
 ActionController::RoutingError (No route matches [GET] "/ambiente"):
+=======
+Started GET "/" for 127.0.0.1 at 2016-05-05 20:36:24 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 79ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-05 20:36:29 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-05 20:36:33 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-05 20:36:39 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-05 20:36:55 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-05-05 20:37:22 -0300
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+>>>>>>> 7c5d2a36dc761fb5f79a8386c77729d711ee19cf
   web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
   web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
   actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
@@ -116,6 +152,7 @@ ActionController::RoutingError (No route matches [GET] "/ambiente"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -338,3 +375,18 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 187.78.79.114 at 2016-05-06 00:13:27 +0000
+=======
+  /home/jonatas/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/jonatas/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/jonatas/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (30.5ms)
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /home/jonatas/.rvm/gems/ruby-2.3.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (64.9ms)
+
+
+Started PUT "/console/repl_sessions/511f0ee39891b0743c765a6d60157993" for 127.0.0.1 at 2016-05-05 20:37:39 -0300
+>>>>>>> 7c5d2a36dc761fb5f79a8386c77729d711ee19cf
