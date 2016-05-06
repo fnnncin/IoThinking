@@ -1,0 +1,11 @@
+Feature: Ambientes
+    In order to manage the ambientes
+    As administrator
+    I want to manage all ambientes.
+    
+    Scenario: Add ambientes
+        When I am in the register page
+        And click in "New Ambiente"
+        And fill the form
+        Then I should see my register in the list
+    
