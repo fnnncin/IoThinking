@@ -14,7 +14,7 @@ gatos com energia elétrica de certo estabelecimento ou residência.
 </p>
 <p>Grupo:</p>
 <ul>
-  <li>Pedro Clericuzi(pvbc) - líder/desenvolvedor</li>
-  <li>Fernando Neves(fnnn) - desenvolvedor/designer</li>
+  <li>Pedro Clericuzi(pvbc) - líder/desenvolvedor/desingner</li>
+  <li>Fernando Neves(fnnn) - desenvolvedor</li>
   <li>Jonatas Nascimento(jns2) - desenvolvedor</li>
 </ul>
